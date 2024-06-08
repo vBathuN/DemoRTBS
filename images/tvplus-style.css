@@ -386,6 +386,7 @@ animation-name: blinker;
 
 .stream
 {
+    background: linear-gradient(90deg, transparent, #800 0%);
     width:400px;
     height: 720px;    
     margin-right: 880px;
