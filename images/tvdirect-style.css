@@ -246,7 +246,7 @@ animation-name: blinker;
   width: 1280px;
   height: 200px;
   line-height: 1.6;
-  margin: -6px -210px;
+  margin: 0px -210px;
   
 }
 
@@ -358,7 +358,7 @@ animation-name: blinker;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
-  margin-top: -3px;
+  margin-top: 3px;
 
   background: 
     linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%)
@@ -381,7 +381,7 @@ animation-name: blinker;
     width:880px;
     height: 720px;    
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 7px;
     position: absolute; 
     border-right: 10px solid #870407;
     
@@ -394,6 +394,6 @@ animation-name: blinker;
     height: 720px;    
     margin-right: 880px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
     position: absolute;    
 }
