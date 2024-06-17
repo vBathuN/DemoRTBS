@@ -380,8 +380,8 @@ animation-name: blinker;
 {
     width:880px;
     height: 580px;    
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin-top: 0px;
+    margin-bottom: 140px;
     position: absolute; 
     border-right: 10px solid #870407;
     
@@ -394,6 +394,6 @@ animation-name: blinker;
     height: 720px;    
     margin-right: 880px;
     margin-top: 0px;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
     position: absolute;    
 }
