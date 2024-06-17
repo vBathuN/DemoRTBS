@@ -354,7 +354,7 @@ animation-name: blinker;
   font-size: 12pt;
   font-weight: bold;
   width: 100%;
-  height: 112px;
+  height: 80px;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
@@ -381,7 +381,7 @@ animation-name: blinker;
     width:880px;
     height: 720px;    
     margin-top: 0px;
-    margin-bottom: 7px;
+    margin-bottom: 4px;
     position: absolute; 
     border-right: 10px solid #870407;
     
