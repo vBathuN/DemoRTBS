@@ -2,7 +2,7 @@
 /* Depends on length of ticker text */
 html { max-width: 1280px; margin: 0 auto;}
 body {
-  background: #19f radial-gradient(transparent, #02c);
+  background: transparent;
   font-family: Arial;
   color: #fff;
   display: flex;
@@ -246,19 +246,119 @@ animation-name: blinker;
   width: 1280px;
   height: 200px;
   line-height: 1.6;
-  margin: 3px -210px;
+  margin: 10px -210px;
   
+}
+
+.base{
+  background-color: #870407;
+}
+
+#titleContainer {
+  display: none;
+}
+
+#subTitleContainer {
+  display: none;
+}
+
+.color1{
+  background-color: #870407;
+}
+
+
+.primTxt{
+  color: white;
+  font-weight:800;
+  font-size:16px;
+  line-height:10px;
+  margin: 11.5px 0;
+}
+
+.secTxt{
+  color:white;
+  font-weight:600;
+  font-size:12px;
+  line-height:10px;
+  margin:13px 0;
+}
+
+#lowerThird{
+  display:flex;
+}
+
+.flexContainer{
+  display:flex;
+  flex-flow: row wrap;
+  width:auto;
+  margin: 20px -880px;
+}
+
+.container{
+  position:relative;
+  overflow:hidden;
+  display:inline-flex;
+}
+
+.lineBreak{
+  width:100%;
+}
+
+.box3{
+  height:100%;
+  width:100%;
+  transform:translate3D(-100%, 0, 0);
+  overflow:hidden;
+  animation-name:box3;
+  animation-delay:.75s;
+  animation-duration:20s;
+  animation-iteration-count:infinite;
+}
+
+.text{
+  padding:0px 10px;
+  max-width:1420px;
+  animation-name:text1;
+  animation-delay:1s;
+  animation-duration:20s;
+  animation-iteration-count:infinite;
+  transform:translate3d(calc(-100% - 40px), 0, 0);
+}
+
+@keyframes box3{
+  0% {
+    transform:translate3D(-100%, 0, 0);
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  12%, 60% {
+    transform:translate3D(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  65%, 100% {transform:translate3D(-100%, 0, 0)}
+}
+
+@keyframes text1{
+  0% {
+    transform:translate3d(calc(-100% - 40px), 0, 0);
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  6%, 70% {
+    transform:translate3d(0, 0, 0);
+    animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  72%, 100% {transform:translate3d(calc(-100% - 40px), 0, 0)}
 }
 
 .ticker-top {
   background: #870407;
-  font-size: 12pt;
+  font-size: 10pt;
   font-weight: bold;
   width: 100%;
-  height: 112px;
+  height: 80px;
   overflow: hidden;
   position: relative;
   white-space: nowrap;
+  margin-top: 3px;
 
   background: 
     linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%)
@@ -279,14 +379,17 @@ animation-name: blinker;
 .rtcs
 {
     width:880px;
-    height: 610px;    
+    height: 496px;    
     margin-top: 0px;
-    margin-bottom: 145px;
-    position: absolute;    
+    margin-bottom: 230px;
+    position: absolute; 
+    border-right: 20px solid #870407;
+    
 }
 
 .stream
 {
+    background: linear-gradient(90deg, transparent, #800 0%);
     width:400px;
     height: 720px;    
     margin-right: 880px;
