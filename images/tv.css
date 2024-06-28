@@ -378,9 +378,9 @@ animation-name: blinker;
 .rtcs
 {
     width:880px;
-    height: 720px;    
+    height: 495px;    
     margin-top: 0px;
-    margin-bottom: 4px;
+    margin-bottom: 150px;
     position: absolute;    
 }
 
