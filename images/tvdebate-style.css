@@ -266,10 +266,10 @@ animation-name: blinker;
 .border-right {
         z-index: 100;
         height: 484px;
-        left: 860px;
+        left: 865px;
         top: 85px;
         position: absolute;
-        border-right: 20px solid #188C00;
+        border-right: 15px solid #188C00;
 }
 
 .rtcs
