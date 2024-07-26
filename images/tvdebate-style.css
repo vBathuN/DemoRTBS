@@ -277,16 +277,25 @@ animation-name: blinker;
 .border-right {
         z-index: 100;
         height: 484px;
-        left: 865px;
+        left: 870px;
         top: 85px;
         position: absolute;
-        border-right: 15px solid #188C00;
+        border-right: 10px solid #188C00;
 }
 
 .border-left {
         z-index: 100;
         height: 484px;
         left: 395px;
+        top: 78px;
+        position: absolute;
+        border-left: 10px solid #870407;
+}
+
+.border-left-left {
+        z-index: 100;
+        height: 484px;
+        left: 0px;
         top: 78px;
         position: absolute;
         border-left: 10px solid #870407;
