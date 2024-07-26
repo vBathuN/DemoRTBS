@@ -263,6 +263,19 @@ animation-name: blinker;
   
 }
 
+.ticker-top-left {
+  background: linear-gradient(90deg, transparent, #800 0%);
+  font-size: 10pt;
+  font-weight: bold;
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  white-space: nowrap;
+  margin-top: 2px;
+  
+}
+
 .border-right {
         z-index: 100;
         height: 484px;
@@ -276,7 +289,7 @@ animation-name: blinker;
         z-index: 100;
         height: 484px;
         left: 395px;
-        top: 80px;
+        top: 78px;
         position: absolute;
         border-left: 10px solid #870407;
 }
