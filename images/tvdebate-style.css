@@ -286,7 +286,7 @@ animation-name: blinker;
 .border-left {
         z-index: 100;
         height: 484px;
-        left: 395px;
+        left: 400px;
         top: 78px;
         position: absolute;
         border-left: 10px solid #870407;
