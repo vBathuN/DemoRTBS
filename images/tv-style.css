@@ -17,6 +17,8 @@ body {
   overflow:hidden;
   margin: 0;
   text-transform: uppercase;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 p {
