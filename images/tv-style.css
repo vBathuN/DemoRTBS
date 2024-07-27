@@ -5,18 +5,16 @@ body {
   background: transparent;
   font-family: Arial;
   color: #fff;
-  display: flex;
   display: -webkit-flex;
-  flex-direction: column;
   -webkit-flex-direction: column;
-  align-items: flex-end;
   -webkit-align-items: flex-end;
-  justify-content: flex-end;
   -webkit-justify-content: flex-end;
   height: 100vh;
   overflow:hidden;
   margin: 0;
   text-transform: uppercase;
+  vertical-align: middle;
+  justify-content:center;
 }
 
 p {
@@ -240,14 +238,13 @@ animation-name: blinker;
   }
 }
 
-.textrss /* wrap */ {
-  position: absolute;
-  z-index: 100;
-  width: 1280px;
-  height: 200px;
-  line-height: 1.6;
-  margin: 10px -220px;
-  
+.textrss {
+    position: absolute;
+    z-index: 100;
+    width: 1050px;
+    height: 100px;
+    line-height: 1.6;
+    margin: -107px 30px;
 }
 
 .ticker-top {
@@ -285,7 +282,7 @@ animation-name: blinker;
 
 .border-left {
         z-index: 100;
-        height: 484px;
+        height: 485px;
         left: 400px;
         top: 78px;
         position: absolute;
@@ -294,29 +291,26 @@ animation-name: blinker;
 
 .border-left-left {
         z-index: 100;
-        height: 484px;
+        height: 485px;
         left: 0px;
         top: 78px;
         position: absolute;
         border-left: 10px solid #188C00;
 }
 
-.rtcs
-{
-    width:880px;
-    height: 496px;    
+.rtcs {
+    width: 880px;
+    height: 496px;
     margin-top: 0px;
-    margin-bottom: 230px;
-    position: absolute;
-    
+    padding-bottom: 72px;
+    position: relative;
 }
 
-.stream
-{
-    width:400px;
-    height: 720px;    
-    margin-right: 880px;
+.stream {
+    width: 400px;
+    height: 496px;
+    padding-right: 880px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    padding-bottom: 219px;
     position: absolute;
 }
