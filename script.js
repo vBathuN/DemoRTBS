@@ -30,14 +30,14 @@ setInterval(function() {
 }, 1000);
 
 
-Date.prototype.yyyymmdd = function() {         
+Date.prototype.ddmmyy = function() {         
                                 
-        var yyyy = this.getFullYear().toString();                                    
+        var dd  = this.getDate().toString();                                    
         var mm = (this.getMonth()+1).toString(); // getMonth() is zero-based         
-        var dd  = this.getDate().toString();             
+        var yy = this.getFullYear().toString();             
                             
-        return yyyy + '-' + (mm[1]?mm:"0"+mm[0]) + '-' + (dd[1]?dd:"0"+dd[0]);
+        return dd + '-' + (mm[1]?mm:"0"+mm[0]) + '-' + (yy[1]?yy:"0"+yy[0]);
    };  
 
 d = new Date();
-$('#today').html(d.yyyymmdd());
+$('#today').html(d.ddmmyy());
