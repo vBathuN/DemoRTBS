@@ -187,6 +187,10 @@ animation-name: blinker;
   overflow:hidden;
 }
 
+.logo {
+   margin-top:10;
+}
+
 .rtcs-anchor {
     display: inline-block;
     vertical-align: top;
