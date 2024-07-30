@@ -126,10 +126,10 @@ animation-name: blinker;
   color:#FFF;
   font-weight: bold;
   text-transform: uppercase;
-  border-top: 2px solid #ffffff;
-  border-left: 2px solid #ffffff;
-  border-right: 2px solid #ffffff;
-  border-bottom: 2px solid #ffffff;
+  border-top: 2px solid #c9a050;
+  border-left: 2px solid #c9a050;
+  border-right: 2px solid #c9a050;
+  border-bottom: 2px solid #c9a050;
 }
 
 /* Ripple magic */
@@ -210,5 +210,5 @@ animation-name: blinker;
     margin-top: 0px;
     position: absolute;
     z-index: -1;
-    border-right: 5px solid #870804;
+    border-right: 5px solid #c9a050;
 }
