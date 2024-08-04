@@ -260,6 +260,7 @@ animation-name: blinker;
   position: relative;
   white-space: nowrap;
   margin-top: 3px;
+  z-index: 1;
 
   background: 
     linear-gradient(90deg,#0000 33%,rgba(255,255,255,0.3) 50%,#0000 66%)
