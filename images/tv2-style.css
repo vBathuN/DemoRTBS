@@ -71,18 +71,18 @@ animation-name: blinker;
 }
 
 @-moz-keyframes blinker {  
-    0% { background: #c9a050; }
+    0% { background: red; }
     50% { background: #660303 ; }
-    100% { background: #c9a050; }
+    100% { background: red; }
 }@-webkit-keyframes blinker {  
-    0% { background: #c9a050; }
+    0% { background: red; }
     50% { background: #660303 ; }
-    100% { background: #c9a050; }
+    100% { background: red; }
 }
 @keyframes blinker {  
-    0% { background: #c9a050; }
+    0% { background: red; }
     50% { background: #660303; }
-    100% { background: #c9a050; }
+    100% { background: red; }
 }
 .cur-event p {
   line-height: 1em;
