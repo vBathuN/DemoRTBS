@@ -120,7 +120,7 @@ animation-name: blinker;
 
 .label {
   float:right;
-  padding:6px 8px;
+  padding:6px 6px;
   background:#870804;
   color:#FFF;
   font-weight: bold;
