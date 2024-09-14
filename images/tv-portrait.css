@@ -2,7 +2,7 @@
 /* Depends on length of ticker text */
 html { max-width: 720px; max-hight: 1280px; margin: 0 auto;}
 body {
- background: #19f radial-gradient(transparent, #02c);
+  background: #19f radial-gradient(transparent, #02c);
   font-family: Arial;
   color: #fff;
   display: flex;
@@ -266,7 +266,7 @@ height: 310px;
 .rtcs
 {
     width:720px;
-    height: 1280px;    
+    height: 920px;    
     margin-bottom: 360px;
     position: absolute;    
 }
