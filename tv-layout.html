@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<script language=JavaScript>
+//Disable right mouse click Script
+
+var message="Function Disabled!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+ }
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+</script>
+  <meta charset="UTF-8">
+  <title>RTCS News TV Display</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0"><link rel="stylesheet" href="images/tv-layout-style.css">
+</head>
+<body>
+<div class="rtcs">
+<iframe class="rtcs" width="100vh" height="100vh" src="https://com.rtcs.live/?view=Studio&scene=1&room=RTCSliveDemo&916&cover&transparent&controls=0" allow="autoplay" frameborder="0" encrypted-media;></iframe>
+</div>
+
+<div class='stream'>
+<iframe name="anchor" width="400px" height="720px" src="https://com.rtcs.live/?scene&room=RTCSliveDemo&order=N&916&cover&controls=0&exclude=Studio,Camera&transparent" allow="autoplay" frameborder="0" encrypted-media;></iframe>
+</div>
+
+<div class="camera">
+<iframe class="camera" width="100vh" height="100vh" src="https://com.rtcs.live/?view=Camera&scene=1&room=RTCSliveDemo&916&cover&transparent&controls=0" allow="autoplay" frameborder="0" encrypted-media;></iframe>
+</div>
+
+<iframe class="nt" width="100vh" height="100vh" src="https://lt.rtcs.live/" allow="autoplay" frameborder="0" encrypted-media;></iframe>
+
+
+<!-- partial:index.partial.html -->
+<div class='main'></div>  
+
+<!-- partial -->
+
+</body>
+</html>
