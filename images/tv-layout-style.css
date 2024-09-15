@@ -1,0 +1,65 @@
+/* Depends on length of ticker text */
+html { max-width: 1280px; max-height: 100vh; margin: 0 auto;}
+body {
+  background: #19f radial-gradient(transparent, #02c);
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ9nKm2cMtp9eesq8G6SZScBu59ntFBb-DDU8VcGT2-Ou3wA8yOAtq-d_77warntaScMaNRd-2FCAZ8tNik015prVgFdu3sU65YYGR-65L3pDI5n52f7dbvdB4uoESWvY18-aN8HnU7AC6hf5W_ACMQCnbO_clk1BcwlkESbPKG9Wt-lZ2EEWgr4L4WKE/s4983/interior-of-modern-living-room-3d-rendering-2023-11-27-05-15-38-utc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-flex;
+  overflow:hidden;
+  vertical-align: middle;
+  justify-content:center;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+  width: 100%;
+}
+
+.rtcs {
+    display: inline-block;
+    vertical-align: top;
+    width: 1280px;
+    height: 720px;
+    margin-top: 0px;
+    position: relative;
+}
+
+.stream {
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    height: 720px;
+    padding-right: 880px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+.camera {
+    display: inline-block;
+    vertical-align: top;
+    width: 880px;
+    height: 496px;
+    padding-bottom: 224px;
+    margin-left: 133px;
+    position: absolute;
+}
+
+.nt {
+    display: inline-block;
+    z-index: 5;
+    vertical-align: top;
+    width: 1280px;
+    height: 720px;
+    margin-left: -400px;
+    position: absolute;
+}
