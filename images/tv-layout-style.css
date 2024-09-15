@@ -1,8 +1,8 @@
 /* Depends on length of ticker text */
 html { max-width: 1280px; max-height: 100vh; margin: 0 auto;}
 body {
-  background: #19f radial-gradient(transparent, #02c);
-  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJ9nKm2cMtp9eesq8G6SZScBu59ntFBb-DDU8VcGT2-Ou3wA8yOAtq-d_77warntaScMaNRd-2FCAZ8tNik015prVgFdu3sU65YYGR-65L3pDI5n52f7dbvdB4uoESWvY18-aN8HnU7AC6hf5W_ACMQCnbO_clk1BcwlkESbPKG9Wt-lZ2EEWgr4L4WKE/s4983/interior-of-modern-living-room-3d-rendering-2023-11-27-05-15-38-utc.jpg');
+  background: #c9a050;
+  background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi331TwmRlr6Sc69e9r-cYJN2QOIj-x6LjF09XBkMZtrZIpDn8aMUJyRzfStMNaEQwpJ8d-ylqboRVBHpd27wDA7ISnZlDJvW-7hw3GRFjW1WjmAz1-pOLFBKd0PC6KD2t79ypeJENj9W3i7ztF21u9jY0sUNZKBVopSmo7jXN2k0euIaF1TiQqw_QJpD8/s1280/rtcslive-banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-flex;
