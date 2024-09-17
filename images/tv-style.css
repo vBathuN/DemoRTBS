@@ -186,6 +186,19 @@ animation-name: blinker;
   overflow:hidden;
 }
 
+.rtcs {
+    background-image: url('https://hosting.rtcs.live/media/rtcslive-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: top;
+    width: 1280px;
+    height: 565px;
+    margin-top: 0px;
+    position: relative;
+    z-index: -2;
+}
+
 .rtcs-anchor {
     display: inline-block;
     vertical-align: top;
