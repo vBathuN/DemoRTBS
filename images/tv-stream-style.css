@@ -29,8 +29,18 @@ p {
     display: inline-block;
     vertical-align: top;
     width: 400px;
-    height: 496px;
+    height: 720px;
     padding-right: 880px;
-    margin-bottom: 65px;
+    margin-bottom: 0px;
+    position: absolute;
+}
+
+.nt {
+    display: inline-block;
+    z-index: 5;
+    vertical-align: top;
+    width: 1280px;
+    height: 720px;
+    margin-left: 0px;
     position: absolute;
 }
