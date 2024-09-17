@@ -15,7 +15,6 @@ body {
 }
 
 .main {
-  
   display: -webkit-flex;
   flex-direction: row;
   justify-content: flex-end;
