@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  padding-bottom: 560px;
+  
   display: -webkit-flex;
   flex-direction: row;
   justify-content: flex-end;
