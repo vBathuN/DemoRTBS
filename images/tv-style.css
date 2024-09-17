@@ -199,9 +199,6 @@ animation-name: blinker;
 }
 
 .rtcs-report {
-    background-image: url('https://hosting.rtcs.live/media/rtcslive-banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     display: inline-block;
     vertical-align: top;
     width: 880px;
