@@ -27,11 +27,11 @@ p {
 
 .stream {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
     width: 400px;
     height: 496px;
     padding-right: 880px;
-    margin-bottom: 65px;
+    margin-bottom: 0px;
     position: absolute;
 }
 
