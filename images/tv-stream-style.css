@@ -27,7 +27,6 @@ p {
 
 .stream {
     display: inline-block;
-    vertical-align: top;
     width: 400px;
     height: 720px;
     padding-right: 880px;
