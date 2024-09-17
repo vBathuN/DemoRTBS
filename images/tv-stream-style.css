@@ -21,16 +21,6 @@ p {
   margin: 0;
 }
 
-.main {
-  display: flex;
-  display: -webkit-flex;
-  flex-direction: row;
-  -webkit-flex-direction: row;
-  justify-content: flex-end;
-  -webkit-justify-content: flex-end;
-  width: 100%;
-}
-
 .rtcs {
     display: inline-block;
     vertical-align: top;
