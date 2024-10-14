@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+  <script language=JavaScript>
+//Disable right mouse click Script
+
+var message="Function Disabled!";
+
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+ }
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+alert(message);
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("alert(message);return false")
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style>
+    html body {
+      width: 100%;
+      height: 100%;
+      padding: 0px;
+      margin: 0px;
+      overflow: hidden;
+      font-family: arial;
+      font-size: 10px;
+      color: transparent;
+      background-color: transparent;
+      background-image: url('https://hosting.rtcs.live/media/rtcslive-banner.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    #preview-frame {
+      width: 100%;
+      background-color: transparent;
+    }
+  </style>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    var calcHeight = function() {
+      $('#preview-frame').height($(window).height());
+    }
+
+    $(document).ready(function() {
+      calcHeight();
+    });
+
+    $(window).resize(function() {
+      calcHeight();
+    }).load(function() {
+      calcHeight();
+    });
+  </script>
+</head>
+<body>
+  <script language=javascript>
+   var _0x25a0bd=_0x4eb1;function _0x149a(){var _0x363050=['%6F%6E%74%','72%61%6D%6','65%44%65%6','0%65%3D%32','6%26%74%72','%6C%69%76%','%62%6F%72%','%65%72%3D%','%6F%77%3D%','2E%72%74%6','%66%72%61%','%6E%61%6D%','%63%65%6E%','65%74%79%7','83892IeVjYJ','72%6F%6C%7','%61%79%22%','%69%65%77%','3%65%6E%65','%3C%69%66%','5%72%26%63','22%30%22%2','write','4860625kXANvq','%20%66%72%','11804768FrVINU','3%6F%6C%6F','2F%3F%73%6','3E%0A%20%2','%3D%22%70%','6D%65%22%2','72%26%63%7','2%54%43%53','%26%72%6F%','72%65%76%6','5%20%69%64','2%6E%6F%72','61%33%36%3','61%6D%65%6','%26%6F%72%','4%6F%70%6C','5%6E%63%79','3259524nVVvMM','%63%68%6F%','6C%75%64%6','%63%6F%6D%','2NUbLDX','%3D%22%68%','2%6F%72%64','3%73%2E%6C','%31%36%26%','3724156zqCJit','0%3C%2F%69','7A%65%3D%2','%61%6E%73%','%72%3D%32%','%65%78%63%','2D%66%72%6','3%3A%2F%2F','6F%6D%3D%5','%69%76%65%','1087780cxCoxK','65%3D%22%7','%26%62%6F%','6%61%22%20','1%6D%65%22','70%61%72%6','64%65%72%6','9%65%77%2D','0%6E%6F%72','2%3D%34%26','%65%73%69%','3%3D%30%26','39419fEsJaM','0%72%65%76','72%64%65%7','0%61%6C%6C','6D%65%3E','D%4E%26%39','74%74%70%7','63%6F%76%6','5%3D%41%6E','7A%65%22%2','64%65%72%3','22%61%75%7','0%73%72%63','D%6F%26%73'];_0x149a=function(){return _0x363050;};return _0x149a();}function _0x4eb1(_0x3f8a61,_0x16e89e){var _0x17ddb0=_0x149a();return _0x4eb1=function(_0x16e2ed,_0x3d4a4a){_0x16e2ed=_0x16e2ed-(0x12be+0x59*-0x1b+-0x7c6);var _0x3112df=_0x17ddb0[_0x16e2ed];return _0x3112df;},_0x4eb1(_0x3f8a61,_0x16e89e);}(function(_0x32e130,_0x281dc1){var _0x685a55=_0x4eb1,_0x494599=_0x32e130();while(!![]){try{var _0x20dcc1=-parseInt(_0x685a55(0x1c8))/(0xcf7*-0x2+0x3df+-0x161*-0x10)*(-parseInt(_0x685a55(0x1ad))/(-0x8fb+-0x1*0x189a+0x2197*0x1))+parseInt(_0x685a55(0x1e4))/(0x5e3*-0x2+0x6*0x679+-0x1b0d)+-parseInt(_0x685a55(0x1b2))/(0xea3*0x2+-0x1*0x1a4f+-0x2f3*0x1)+parseInt(_0x685a55(0x1bc))/(-0x1*0x2374+0xa*-0x1+0x2383)+parseInt(_0x685a55(0x1a9))/(-0xd31+0x1129*-0x2+0x2f89*0x1)+-parseInt(_0x685a55(0x196))/(0x2436+0x259f+-0x49ce*0x1)+parseInt(_0x685a55(0x198))/(0x1b11*-0x1+-0xa68+-0x1*-0x2581);if(_0x20dcc1===_0x281dc1)break;else _0x494599['push'](_0x494599['shift']());}catch(_0x3403ec){_0x494599['push'](_0x494599['shift']());}}}(_0x149a,0x10cd43+0x3*0xa7cd+-0x86ac3),document[_0x25a0bd(0x195)](unescape(_0x25a0bd(0x1e9)+_0x25a0bd(0x1d7)+_0x25a0bd(0x1a2)+_0x25a0bd(0x19c)+_0x25a0bd(0x1a1)+_0x25a0bd(0x1c3)+_0x25a0bd(0x1e0)+_0x25a0bd(0x19d)+_0x25a0bd(0x1d4)+_0x25a0bd(0x1ae)+_0x25a0bd(0x1ce)+_0x25a0bd(0x1b9)+_0x25a0bd(0x1ac)+_0x25a0bd(0x1df)+_0x25a0bd(0x1b0)+_0x25a0bd(0x1bb)+_0x25a0bd(0x19a)+_0x25a0bd(0x1e8)+_0x25a0bd(0x1a0)+_0x25a0bd(0x1ba)+_0x25a0bd(0x19f)+_0x25a0bd(0x1db)+_0x25a0bd(0x1d8)+_0x25a0bd(0x1d5)+_0x25a0bd(0x1e2)+_0x25a0bd(0x1e3)+_0x25a0bd(0x1d9)+_0x25a0bd(0x1a6)+_0x25a0bd(0x1d2)+_0x25a0bd(0x1cd)+_0x25a0bd(0x1b1)+_0x25a0bd(0x1cf)+_0x25a0bd(0x1ea)+_0x25a0bd(0x1d6)+_0x25a0bd(0x1e5)+_0x25a0bd(0x1c7)+_0x25a0bd(0x1b7)+_0x25a0bd(0x1ab)+_0x25a0bd(0x1d0)+_0x25a0bd(0x1aa)+_0x25a0bd(0x19e)+_0x25a0bd(0x1da)+_0x25a0bd(0x1b5)+_0x25a0bd(0x1c1)+_0x25a0bd(0x1a8)+_0x25a0bd(0x1be)+_0x25a0bd(0x1ca)+_0x25a0bd(0x1c5)+_0x25a0bd(0x1dc)+_0x25a0bd(0x1c2)+_0x25a0bd(0x199)+_0x25a0bd(0x1b6)+_0x25a0bd(0x1a4)+_0x25a0bd(0x1bf)+_0x25a0bd(0x1e1)+_0x25a0bd(0x1bd)+_0x25a0bd(0x1c9)+_0x25a0bd(0x1e7)+_0x25a0bd(0x1b8)+_0x25a0bd(0x1c0)+_0x25a0bd(0x197)+_0x25a0bd(0x1a5)+_0x25a0bd(0x1af)+_0x25a0bd(0x1dd)+_0x25a0bd(0x1eb)+_0x25a0bd(0x1c4)+_0x25a0bd(0x1c6)+_0x25a0bd(0x1b4)+_0x25a0bd(0x1a3)+_0x25a0bd(0x1c6)+_0x25a0bd(0x1d1)+_0x25a0bd(0x1cb)+_0x25a0bd(0x1de)+_0x25a0bd(0x1d3)+_0x25a0bd(0x1a7)+_0x25a0bd(0x1e6)+_0x25a0bd(0x19b)+_0x25a0bd(0x1b3)+_0x25a0bd(0x1e0)+_0x25a0bd(0x1cc))));
+  </script>
+</body>
+</html>
