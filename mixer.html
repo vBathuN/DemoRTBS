@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Iframe scaling viewport</title>
+  <style>
+.spaceWrap { 
+  width: 400px; 
+  height: 225px; 
+  padding: 0; 
+  overflow: hidden; 
+}
+
+.viewPort { 
+  width: 1600px; 
+  height: 900px; 
+  border: 1px solid black;
+}
+
+.viewPort {
+    transform: scale(0.25);
+    transform-origin: 0 0;
+}
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="spaceWrap">
+  <iframe class="viewPort" src="https://com.rtbs.in/mixer?room=RTBSDemo">
+  </iframe>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
