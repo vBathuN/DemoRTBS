@@ -23,29 +23,6 @@
       <div class="modal-body">
         <div class="test_fb_wrapper">
           <div class="test_fb_wrapper_responsive">
-            <script src="https://richtr.github.io/NoSleep.js/dist/NoSleep.min.js"></script>
-
-    <input type="button" id="toggle" value="Wake Lock is disabled" />
-		
-      <script>
-      var noSleep = new NoSleep();
-
-      var wakeLockEnabled = false;
-      var toggleEl = document.querySelector("#toggle");
-      toggleEl.addEventListener('click', function() {
-        if (!wakeLockEnabled) {
-          noSleep.enable(); // keep the screen on!
-          wakeLockEnabled = true;
-          toggleEl.value = "Wake Lock is enabled";
-          document.body.style.backgroundColor = "green";
-        } else {
-          noSleep.disable(); // let the screen turn off.
-          wakeLockEnabled = false;
-          toggleEl.value = "Wake Lock is disabled";
-          document.body.style.backgroundColor = "";
-        }
-      }, false);
-    </script>
             <iframe src="https://demo.rtbs.in/mixer" noresize="noresize" allow="autoplay;camera;microphone;fullscreen;picture-in-picture;display-capture;usb;midi;geolocation;" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           </div> 
         </div>
